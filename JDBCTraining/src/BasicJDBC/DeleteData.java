@@ -11,7 +11,7 @@ public class DeleteData {
 		PreparedStatement ps = null;
 		Scanner sc = new Scanner(System.in);
 		String url = "jdbc:mysql://localhost:3306/mysql_practice?user=root&password=root";
-		String sql = "delete roommate where RId=?";
+		String sql = "delete from roommate where RId=?";
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
