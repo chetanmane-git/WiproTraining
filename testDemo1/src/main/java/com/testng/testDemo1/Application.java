@@ -16,6 +16,7 @@ WebDriver driver;
 	
 	@BeforeClass
 	public void launchBrowser() {
+		System.out.println("Launching the browser.");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
