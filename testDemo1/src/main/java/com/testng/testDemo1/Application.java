@@ -29,8 +29,8 @@ WebDriver driver;
 		
 		System.out.println(driver.getTitle());
 		
-		driver.findElement(By.id("FirstName")).sendKeys("shivam");
-		driver.findElement(By.id("LastName")).sendKeys("shivhare");		 
+		driver.findElement(By.id("FirstName")).sendKeys("Chetan");
+		driver.findElement(By.id("LastName")).sendKeys("Mane");		 
 	}
 	
 	@Test
