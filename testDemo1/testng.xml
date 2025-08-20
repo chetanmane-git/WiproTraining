@@ -19,7 +19,7 @@
   -->
 
   <!-- DataProviderWithForLoop -->
-  <!--
+  <!--	
   <test name="NopCommerceTests">
     <classes>
       <class name="Aug_16.Data	ProviderWithForLoop"/>
