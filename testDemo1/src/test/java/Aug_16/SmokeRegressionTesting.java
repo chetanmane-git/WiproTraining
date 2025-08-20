@@ -1,4 +1,4 @@
-package testDemo1;
+package Aug_16;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.*;
 
-public class NopCommerceSmokeRegressionTesting {
+public class SmokeRegressionTesting {
 	WebDriver driver;
 
 	@Parameters({"browserName", "url"})	

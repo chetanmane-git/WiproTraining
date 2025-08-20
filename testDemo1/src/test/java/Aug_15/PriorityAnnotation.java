@@ -1,4 +1,4 @@
-package testDemo1;
+package Aug_15;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class NopCommerce {
+public class PriorityAnnotation {
 	WebDriver driver;
 
 	@BeforeClass

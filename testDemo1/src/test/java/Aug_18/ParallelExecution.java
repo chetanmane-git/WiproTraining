@@ -1,4 +1,4 @@
-package testDemo1;
+package Aug_18;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class NopCommerceParallelExecution {
+public class ParallelExecution {
 
     @DataProvider(name = "userData")
     public Object[][] getUserData() {
