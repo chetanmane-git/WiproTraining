@@ -1,4 +1,4 @@
-package Aug_18;
+package aug_18;
 
 import java.time.Duration;
 import org.openqa.selenium.By;

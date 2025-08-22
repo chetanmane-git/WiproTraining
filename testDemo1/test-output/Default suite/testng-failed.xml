@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testDemo1.SynchronizationDemo">
+      <class name="Aug_18_ExcelIntegration.TestLogin">
         <methods>
-          <include name="signUp"/>
+          <include name="login" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testDemo1.SynchronizationDemo -->
+      </class> <!-- Aug_18_ExcelIntegration.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

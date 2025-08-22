@@ -28,21 +28,18 @@ public class TestLogin {
         driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
 
         System.out.println("Login attempt submitted");
-        System.out.println("------------------------------------------");
-        Thread.sleep(2000);
 
 		
+        Thread.sleep(2000);
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@alt='nopCommerce demo store']")));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Welcome to our store']")));
 			System.out.println("Login successful for user: " + userName);
 		} catch (Exception e) { // Optional: capture error message // String errorMsg =
-			driver.findElement(By.xpath("div[@class='message-error validation-summary-errors']")).getText();
-
-			System.out.println("Login failed for user: " + userName + " | Message: ");
+			String errorMsg = driver.findElement(By.xpath("//div[@class='message-error validation-summary-errors']")).getText();
+			System.out.println("Login failed for user: " + userName + " | Message: " + errorMsg);
 			Assert.fail("Login failed for user: " + userName);
-		}
-		 
-
+		}		
+		System.out.println("------------------------------------------");
         driver.quit();
     }
 }

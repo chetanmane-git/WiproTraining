@@ -1,4 +1,4 @@
-package Aug_16;
+package aug_16;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

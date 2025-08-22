@@ -5,7 +5,7 @@
     <classes>
       <class name="Aug_18_ExcelIntegration.TestLogin">
         <methods>
-          <include name="login"/>
+          <include name="login" invocation-numbers="1"/>
         </methods>
       </class> <!-- Aug_18_ExcelIntegration.TestLogin -->
     </classes>
